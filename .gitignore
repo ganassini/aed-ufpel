@@ -1,2 +1,7 @@
 DrMemory-Linux-2.3.0-1
 ex2*.c
+
+leetcode/*/README.md
+leetcode/*/*.png
+leetcode/*/*.out
+leetcode/*/main.c
