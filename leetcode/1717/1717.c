@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <string.h>
-
 int maximumGain(char* s, int x, int y) {
 	int i, j;
 	int stringSize = strlen(s);
@@ -20,7 +17,7 @@ int maximumGain(char* s, int x, int y) {
 
 	while ( switchedPattern != 2 ) {
 		for ( i = 0; i < stringSize; i++ ) {
-			foundPattern = 0;
+			foundPattern = 0
 			if ( s[i] == f_letter ) {
 				if ( s[i + 1] == s_letter ) {
 					foundPattern = 1;
@@ -68,20 +65,3 @@ int maximumGain(char* s, int x, int y) {
 	return totalScore;
 }
 
-int main() {
-	//char string[15] = {'a','a','b','b','a','a','x','y','b','b','a','a','b','b','\0'};
-	char string[13] = {'c','d','b','c','b','b','a','a','a','b','a','b','\0'};
-
-	int i;	
-
-	printf("strlen = %ld\n", strlen(string));
-	printf("score = %d\n", maximumGain(string, 4, 5));	
-	printf("afterStrLen = %ld\n", strlen(string));
-
-	for ( i = 0; i < strlen(string); i++ ) {
-		printf("%c", string[i]);
-	}
-	printf("\n");
-
-	return 0;
-}
