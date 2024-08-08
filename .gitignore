@@ -1,5 +1,4 @@
 ex-2/
-script/
 stack/
 
 leetcode/*/README.md
@@ -8,3 +7,4 @@ leetcode/*/*.png
 leetcode/*/main
 leetcode/*/main3
 
+script
