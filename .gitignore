@@ -1,13 +1,10 @@
-DrMemory-Linux-2.3.0-1
-ex_2
+ex-2/
+script/
+stack/
 
 leetcode/*/README.md
 leetcode/*/*.mp4
 leetcode/*/*.png
-leetcode/*/*_aula.c
 leetcode/*/main
 leetcode/*/main3
 
-stack/*
-
-script
